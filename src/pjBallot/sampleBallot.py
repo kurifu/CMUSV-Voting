@@ -127,63 +127,55 @@ def onKeyPress(sender, keycode, modifiers):
     candidateList = race.selectionList[contestPosition].selectionList
     
     # Contests, only keys allowed are Up/Down to cycle contests, and Enter to select
-    if fsm.current == 'contests':
-        if keycode == KeyboardListener.KEY_UP:
-            contestPosition = (contestPosition+1) if (contestPosition+1<len(contestList)) else 0
-            currObj = race.selectionList[contestPosition]
-        elif keycode == KeyboardListener.KEY_DOWN:
-            contestPosition = len(contestList)-1 if (contestPosition==0) else contestPosition-1
-            currObj = race.selectionList[contestPosition]
-        elif keycode == KeyboardListener.KEY_ENTER:
+    if keycode == KeyboardListener.KEY_UP:
+        contestPosition = (contestPosition+1) if (contestPosition+1<len(contestList)) else 0
+        currObj = race.selectionList[contestPosition]
+        setContest()
+        candidate.clear()
+    elif keycode == KeyboardListener.KEY_DOWN:
+        contestPosition = len(contestList)-1 if (contestPosition==0) else contestPosition-1
+        currObj = race.selectionList[contestPosition]
+        setContest()
+        candidate.clear()
+    elif keycode == KeyboardListener.KEY_ENTER:
+        if fsm.current == 'contests':   
             currObj = race.selectionList[contestPosition].selectionList[candidatePosition]
             fsm.selectCandidate()
             setCandidate()
             return
-        else:
-            return
-        setContest()
-        
-    # Candidates; only keys allowed are Left/Right to cycle candidates, and Enter to select
-    elif fsm.current == 'candidates':
-        if keycode == KeyboardListener.KEY_RIGHT:
-            candidatePosition = (candidatePosition+1) if (candidatePosition+1<len(candidateList)) else 0
-            currObj = race.selectionList[contestPosition].selectionList[candidatePosition]
-        elif keycode == KeyboardListener.KEY_LEFT:
-            candidatePosition = len(candidateList)-1 if (candidatePosition==0) else candidatePosition-1
-            currObj = race.selectionList[contestPosition].selectionList[candidatePosition]
-        elif keycode == KeyboardListener.KEY_ENTER:
+        elif fsm.current == 'candidates':
             fsm.reviewCandidates()
             setConfirm(0)
             return
-        else:
-            return
-        setCandidate()
-        
-    # Review Candidate Selection: Yes or No, then proceed to end or back up to Candidates
-    elif fsm.current == 'review_candidates':
-        if keycode == KeyboardListener.KEY_RIGHT:
-            setConfirm(1)
-        elif keycode == KeyboardListener.KEY_LEFT:
-            setConfirm(-1)
-        elif keycode == KeyboardListener.KEY_ENTER:
+        elif fsm.current == 'review_candidates':
             if confirm % 2 == 0:
                 #race.selectionList[contestPosition].userSelection.append(candidatePosition)
                 makeSelection() # TODO
                 fsm.doneReview()
             else:
                 fsm.reselectCandidates()
-    
-    # Review Ballot: Yes or No, then proceed to end or back up to Contests
-    elif fsm.current == 'review_ballot':
-        if keycode == KeyboardListener.KEY_RIGHT:
-            setConfirm(1)
-        elif keycode == KeyboardListener.KEY_LEFT:
-            setConfirm(-1)
-        elif keycode == KeyboardListener.KEY_ENTER:
+        elif fsm.current == 'review_ballot':
             if confirm % 2 == 0:
                 fsm.doneBallot()
             else:
                 fsm.reselectContest()
+    elif keycode == KeyboardListener.KEY_RIGHT:
+        if fsm.current == 'candidates':
+            candidatePosition = (candidatePosition+1) if (candidatePosition+1<len(candidateList)) else 0
+            currObj = race.selectionList[contestPosition].selectionList[candidatePosition]
+            setCandidate()
+        elif fsm.current == 'review_candidates' or fsm.current == 'review_ballot':
+            setConfirm(1)
+    elif keycode == KeyboardListener.KEY_LEFT:
+        if fsm.current == 'candidates':
+            candidatePosition = len(candidateList)-1 if (candidatePosition==0) else candidatePosition-1
+            currObj = race.selectionList[contestPosition].selectionList[candidatePosition]
+            setCandidate()
+        elif fsm.current == 'review_candidates' or fsm.current == 'review_ballot':
+            setConfirm(-1)
+    else:
+        return
+
 
 '''
 Traverse the list as provided by the 'obj', which can be either of type Race or Contest

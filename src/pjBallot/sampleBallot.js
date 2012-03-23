@@ -88,93 +88,93 @@ $pyjs.loaded_modules['sampleBallot'] = function (__mod_name__) {
 	$m.__track_lines__[124] = 'sampleBallot.py, line 124:\n    global contestPosition, candidatePosition, fsm, currObj';
 	$m.__track_lines__[126] = 'sampleBallot.py, line 126:\n    contestList = race.selectionList';
 	$m.__track_lines__[127] = 'sampleBallot.py, line 127:\n    candidateList = race.selectionList[contestPosition].selectionList';
-	$m.__track_lines__[130] = "sampleBallot.py, line 130:\n    if fsm.current == 'contests':";
-	$m.__track_lines__[131] = 'sampleBallot.py, line 131:\n    if keycode == KeyboardListener.KEY_UP:';
-	$m.__track_lines__[132] = 'sampleBallot.py, line 132:\n    contestPosition = (contestPosition+1) if (contestPosition+1<len(contestList)) else 0';
-	$m.__track_lines__[133] = 'sampleBallot.py, line 133:\n    currObj = race.selectionList[contestPosition]';
-	$m.__track_lines__[135] = 'sampleBallot.py, line 135:\n    contestPosition = len(contestList)-1 if (contestPosition==0) else contestPosition-1';
-	$m.__track_lines__[136] = 'sampleBallot.py, line 136:\n    currObj = race.selectionList[contestPosition]';
-	$m.__track_lines__[138] = 'sampleBallot.py, line 138:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
-	$m.__track_lines__[139] = 'sampleBallot.py, line 139:\n    fsm.selectCandidate()';
-	$m.__track_lines__[140] = 'sampleBallot.py, line 140:\n    setCandidate()';
-	$m.__track_lines__[141] = 'sampleBallot.py, line 141:\n    return';
-	$m.__track_lines__[143] = 'sampleBallot.py, line 143:\n    return';
-	$m.__track_lines__[144] = 'sampleBallot.py, line 144:\n    setContest()';
-	$m.__track_lines__[148] = 'sampleBallot.py, line 148:\n    if keycode == KeyboardListener.KEY_RIGHT:';
-	$m.__track_lines__[149] = 'sampleBallot.py, line 149:\n    candidatePosition = (candidatePosition+1) if (candidatePosition+1<len(candidateList)) else 0';
-	$m.__track_lines__[150] = 'sampleBallot.py, line 150:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
-	$m.__track_lines__[152] = 'sampleBallot.py, line 152:\n    candidatePosition = len(candidateList)-1 if (candidatePosition==0) else candidatePosition-1';
-	$m.__track_lines__[153] = 'sampleBallot.py, line 153:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
-	$m.__track_lines__[155] = 'sampleBallot.py, line 155:\n    fsm.reviewCandidates()';
-	$m.__track_lines__[156] = 'sampleBallot.py, line 156:\n    setConfirm(0)';
-	$m.__track_lines__[157] = 'sampleBallot.py, line 157:\n    return';
-	$m.__track_lines__[159] = 'sampleBallot.py, line 159:\n    return';
-	$m.__track_lines__[160] = 'sampleBallot.py, line 160:\n    setCandidate()';
-	$m.__track_lines__[164] = 'sampleBallot.py, line 164:\n    if keycode == KeyboardListener.KEY_RIGHT:';
-	$m.__track_lines__[165] = 'sampleBallot.py, line 165:\n    setConfirm(1)';
-	$m.__track_lines__[167] = 'sampleBallot.py, line 167:\n    setConfirm(-1)';
-	$m.__track_lines__[169] = 'sampleBallot.py, line 169:\n    if confirm % 2 == 0:';
-	$m.__track_lines__[171] = 'sampleBallot.py, line 171:\n    makeSelection() # TODO';
-	$m.__track_lines__[172] = 'sampleBallot.py, line 172:\n    fsm.doneReview()';
-	$m.__track_lines__[174] = 'sampleBallot.py, line 174:\n    fsm.reselectCandidates()';
-	$m.__track_lines__[178] = 'sampleBallot.py, line 178:\n    if keycode == KeyboardListener.KEY_RIGHT:';
-	$m.__track_lines__[179] = 'sampleBallot.py, line 179:\n    setConfirm(1)';
-	$m.__track_lines__[181] = 'sampleBallot.py, line 181:\n    setConfirm(-1)';
-	$m.__track_lines__[183] = 'sampleBallot.py, line 183:\n    if confirm % 2 == 0:';
-	$m.__track_lines__[184] = 'sampleBallot.py, line 184:\n    fsm.doneBallot()';
-	$m.__track_lines__[186] = 'sampleBallot.py, line 186:\n    fsm.reselectContest()';
-	$m.__track_lines__[188] = "sampleBallot.py, line 188:\n    '''";
-	$m.__track_lines__[191] = 'sampleBallot.py, line 191:\n    def traverselist(obj):';
-	$m.__track_lines__[192] = 'sampleBallot.py, line 192:\n    alist = obj.selectionList';
-	$m.__track_lines__[193] = "sampleBallot.py, line 193:\n    print('* ' + alist[contestPosition].name + ' highlighted *')";
-	$m.__track_lines__[195] = "sampleBallot.py, line 195:\n    '''";
-	$m.__track_lines__[198] = 'sampleBallot.py, line 198:\n    def printstatechange(e):';
-	$m.__track_lines__[199] = "sampleBallot.py, line 199:\n    print 'event: %s, src: %s, dst: %s' % (e.event, e.src, e.dst)";
-	$m.__track_lines__[201] = 'sampleBallot.py, line 201:\n    def onintro(e):';
-	$m.__track_lines__[202] = "sampleBallot.py, line 202:\n    print 'hello!'";
-	$m.__track_lines__[204] = 'sampleBallot.py, line 204:\n    def oncontests(e):';
-	$m.__track_lines__[205] = 'sampleBallot.py, line 205:\n    candidate.clear()';
-	$m.__track_lines__[206] = 'sampleBallot.py, line 206:\n    status.clear()';
-	$m.__track_lines__[207] = "sampleBallot.py, line 207:\n    print('\\nThe contests are:')";
-	$m.__track_lines__[208] = 'sampleBallot.py, line 208:\n    for i, contest in zip(range(len(race.selectionList)), race.selectionList):';
-	$m.__track_lines__[209] = "sampleBallot.py, line 209:\n    print('\\t' + str(i + 1) + ') ' + contest.name)";
-	$m.__track_lines__[210] = 'sampleBallot.py, line 210:\n    traverselist(race)';
-	$m.__track_lines__[212] = 'sampleBallot.py, line 212:\n    currObj = race.selectionList[contestPosition]';
-	$m.__track_lines__[216] = 'sampleBallot.py, line 216:\n    def oncandidates(e):';
-	$m.__track_lines__[217] = 'sampleBallot.py, line 217:\n    currContest = race.selectionList[contestPosition]';
-	$m.__track_lines__[218] = "sampleBallot.py, line 218:\n    print('\\nCurrent race is: ' + currContest.name)";
-	$m.__track_lines__[219] = "sampleBallot.py, line 219:\n    print('Candidates are:')";
-	$m.__track_lines__[220] = 'sampleBallot.py, line 220:\n    for i, person in zip(range(len(currContest.selectionList)), currContest.selectionList):';
-	$m.__track_lines__[221] = 'sampleBallot.py, line 221:\n    print("\\t" + str(i + 1) + \') \' + person.name)';
-	$m.__track_lines__[222] = 'sampleBallot.py, line 222:\n    traverselist(currContest)';
-	$m.__track_lines__[224] = 'sampleBallot.py, line 224:\n    currObj = currContest.selectionList[contestPosition]';
-	$m.__track_lines__[225] = 'sampleBallot.py, line 225:\n    print "current candidate is " + currObj.name';
-	$m.__track_lines__[227] = 'sampleBallot.py, line 227:\n    def onreviewcandidates(e):';
-	$m.__track_lines__[228] = "sampleBallot.py, line 228:\n    print('\\nReview Your Choice for ' + race.selectionList[contestPosition].name + ':')";
-	$m.__track_lines__[229] = 'sampleBallot.py, line 229:\n    candidate = race.selectionList[contestPosition].selectionList[candidatePosition]';
-	$m.__track_lines__[230] = "sampleBallot.py, line 230:\n    print('\\t' + candidate.name)";
-	$m.__track_lines__[232] = 'sampleBallot.py, line 232:\n    def oncheckdone(e):';
-	$m.__track_lines__[233] = 'sampleBallot.py, line 233:\n    for i, contest in zip(range(len(race.selectionList)), race.selectionList):';
-	$m.__track_lines__[234] = 'sampleBallot.py, line 234:\n    if len(contest.userSelection) == 0:';
-	$m.__track_lines__[235] = 'sampleBallot.py, line 235:\n    fsm.nextContest()';
-	$m.__track_lines__[236] = 'sampleBallot.py, line 236:\n    return';
-	$m.__track_lines__[237] = 'sampleBallot.py, line 237:\n    fsm.reviewBallot()';
-	$m.__track_lines__[239] = 'sampleBallot.py, line 239:\n    def onreviewballot(e):';
-	$m.__track_lines__[240] = 'sampleBallot.py, line 240:\n    text = "Review your selections:"';
-	$m.__track_lines__[241] = "sampleBallot.py, line 241:\n    print('\\n'+text)";
-	$m.__track_lines__[242] = 'sampleBallot.py, line 242:\n    playAudio("/media/reviewBallot.wav")';
-	$m.__track_lines__[243] = 'sampleBallot.py, line 243:\n    paths = []';
-	$m.__track_lines__[244] = 'sampleBallot.py, line 244:\n    for contest in race.selectionList:';
-	$m.__track_lines__[245] = "sampleBallot.py, line 245:\n    print(contest.name + ':' + contest.userSelection[0].name)";
-	$m.__track_lines__[246] = 'sampleBallot.py, line 246:\n    paths.append(contest.audioPath)';
-	$m.__track_lines__[247] = 'sampleBallot.py, line 247:\n    paths.append(contest.userSelection[0].audioPath)';
-	$m.__track_lines__[249] = 'sampleBallot.py, line 249:\n    print paths';
-	$m.__track_lines__[252] = 'sampleBallot.py, line 252:\n    def ondoneballot(e):';
-	$m.__track_lines__[253] = "sampleBallot.py, line 253:\n    print('\\nVoting complete! Thanks for using this system!')";
-	$m.__track_lines__[254] = 'sampleBallot.py, line 254:\n    playAudio("/media/finish.wav")';
-	$m.__track_lines__[257] = "sampleBallot.py, line 257:\n    '''";
-	$m.__track_lines__[260] = 'sampleBallot.py, line 260:\n    fsm = Fysom({';
-	$m.__track_lines__[286] = "sampleBallot.py, line 286:\n    '''";
+	$m.__track_lines__[130] = 'sampleBallot.py, line 130:\n    if keycode == KeyboardListener.KEY_UP:';
+	$m.__track_lines__[131] = 'sampleBallot.py, line 131:\n    contestPosition = (contestPosition+1) if (contestPosition+1<len(contestList)) else 0';
+	$m.__track_lines__[132] = 'sampleBallot.py, line 132:\n    currObj = race.selectionList[contestPosition]';
+	$m.__track_lines__[133] = 'sampleBallot.py, line 133:\n    setContest()';
+	$m.__track_lines__[134] = 'sampleBallot.py, line 134:\n    candidate.clear()';
+	$m.__track_lines__[136] = 'sampleBallot.py, line 136:\n    contestPosition = len(contestList)-1 if (contestPosition==0) else contestPosition-1';
+	$m.__track_lines__[137] = 'sampleBallot.py, line 137:\n    currObj = race.selectionList[contestPosition]';
+	$m.__track_lines__[138] = 'sampleBallot.py, line 138:\n    setContest()';
+	$m.__track_lines__[139] = 'sampleBallot.py, line 139:\n    candidate.clear()';
+	$m.__track_lines__[141] = "sampleBallot.py, line 141:\n    if fsm.current == 'contests':";
+	$m.__track_lines__[142] = 'sampleBallot.py, line 142:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
+	$m.__track_lines__[143] = 'sampleBallot.py, line 143:\n    fsm.selectCandidate()';
+	$m.__track_lines__[144] = 'sampleBallot.py, line 144:\n    setCandidate()';
+	$m.__track_lines__[145] = 'sampleBallot.py, line 145:\n    return';
+	$m.__track_lines__[147] = 'sampleBallot.py, line 147:\n    fsm.reviewCandidates()';
+	$m.__track_lines__[148] = 'sampleBallot.py, line 148:\n    setConfirm(0)';
+	$m.__track_lines__[149] = 'sampleBallot.py, line 149:\n    return';
+	$m.__track_lines__[151] = 'sampleBallot.py, line 151:\n    if confirm % 2 == 0:';
+	$m.__track_lines__[153] = 'sampleBallot.py, line 153:\n    makeSelection() # TODO';
+	$m.__track_lines__[154] = 'sampleBallot.py, line 154:\n    fsm.doneReview()';
+	$m.__track_lines__[156] = 'sampleBallot.py, line 156:\n    fsm.reselectCandidates()';
+	$m.__track_lines__[158] = 'sampleBallot.py, line 158:\n    if confirm % 2 == 0:';
+	$m.__track_lines__[159] = 'sampleBallot.py, line 159:\n    fsm.doneBallot()';
+	$m.__track_lines__[161] = 'sampleBallot.py, line 161:\n    fsm.reselectContest()';
+	$m.__track_lines__[163] = "sampleBallot.py, line 163:\n    if fsm.current == 'candidates':";
+	$m.__track_lines__[164] = 'sampleBallot.py, line 164:\n    candidatePosition = (candidatePosition+1) if (candidatePosition+1<len(candidateList)) else 0';
+	$m.__track_lines__[165] = 'sampleBallot.py, line 165:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
+	$m.__track_lines__[166] = 'sampleBallot.py, line 166:\n    setCandidate()';
+	$m.__track_lines__[168] = 'sampleBallot.py, line 168:\n    setConfirm(1)';
+	$m.__track_lines__[170] = "sampleBallot.py, line 170:\n    if fsm.current == 'candidates':";
+	$m.__track_lines__[171] = 'sampleBallot.py, line 171:\n    candidatePosition = len(candidateList)-1 if (candidatePosition==0) else candidatePosition-1';
+	$m.__track_lines__[172] = 'sampleBallot.py, line 172:\n    currObj = race.selectionList[contestPosition].selectionList[candidatePosition]';
+	$m.__track_lines__[173] = 'sampleBallot.py, line 173:\n    setCandidate()';
+	$m.__track_lines__[175] = 'sampleBallot.py, line 175:\n    setConfirm(-1)';
+	$m.__track_lines__[177] = 'sampleBallot.py, line 177:\n    return';
+	$m.__track_lines__[180] = "sampleBallot.py, line 180:\n    '''";
+	$m.__track_lines__[183] = 'sampleBallot.py, line 183:\n    def traverselist(obj):';
+	$m.__track_lines__[184] = 'sampleBallot.py, line 184:\n    alist = obj.selectionList';
+	$m.__track_lines__[185] = "sampleBallot.py, line 185:\n    print('* ' + alist[contestPosition].name + ' highlighted *')";
+	$m.__track_lines__[187] = "sampleBallot.py, line 187:\n    '''";
+	$m.__track_lines__[190] = 'sampleBallot.py, line 190:\n    def printstatechange(e):';
+	$m.__track_lines__[191] = "sampleBallot.py, line 191:\n    print 'event: %s, src: %s, dst: %s' % (e.event, e.src, e.dst)";
+	$m.__track_lines__[193] = 'sampleBallot.py, line 193:\n    def onintro(e):';
+	$m.__track_lines__[194] = "sampleBallot.py, line 194:\n    print 'hello!'";
+	$m.__track_lines__[196] = 'sampleBallot.py, line 196:\n    def oncontests(e):';
+	$m.__track_lines__[197] = 'sampleBallot.py, line 197:\n    candidate.clear()';
+	$m.__track_lines__[198] = 'sampleBallot.py, line 198:\n    status.clear()';
+	$m.__track_lines__[199] = "sampleBallot.py, line 199:\n    print('\\nThe contests are:')";
+	$m.__track_lines__[200] = 'sampleBallot.py, line 200:\n    for i, contest in zip(range(len(race.selectionList)), race.selectionList):';
+	$m.__track_lines__[201] = "sampleBallot.py, line 201:\n    print('\\t' + str(i + 1) + ') ' + contest.name)";
+	$m.__track_lines__[202] = 'sampleBallot.py, line 202:\n    traverselist(race)';
+	$m.__track_lines__[204] = 'sampleBallot.py, line 204:\n    currObj = race.selectionList[contestPosition]';
+	$m.__track_lines__[208] = 'sampleBallot.py, line 208:\n    def oncandidates(e):';
+	$m.__track_lines__[209] = 'sampleBallot.py, line 209:\n    currContest = race.selectionList[contestPosition]';
+	$m.__track_lines__[210] = "sampleBallot.py, line 210:\n    print('\\nCurrent race is: ' + currContest.name)";
+	$m.__track_lines__[211] = "sampleBallot.py, line 211:\n    print('Candidates are:')";
+	$m.__track_lines__[212] = 'sampleBallot.py, line 212:\n    for i, person in zip(range(len(currContest.selectionList)), currContest.selectionList):';
+	$m.__track_lines__[213] = 'sampleBallot.py, line 213:\n    print("\\t" + str(i + 1) + \') \' + person.name)';
+	$m.__track_lines__[214] = 'sampleBallot.py, line 214:\n    traverselist(currContest)';
+	$m.__track_lines__[216] = 'sampleBallot.py, line 216:\n    currObj = currContest.selectionList[contestPosition]';
+	$m.__track_lines__[217] = 'sampleBallot.py, line 217:\n    print "current candidate is " + currObj.name';
+	$m.__track_lines__[219] = 'sampleBallot.py, line 219:\n    def onreviewcandidates(e):';
+	$m.__track_lines__[220] = "sampleBallot.py, line 220:\n    print('\\nReview Your Choice for ' + race.selectionList[contestPosition].name + ':')";
+	$m.__track_lines__[221] = 'sampleBallot.py, line 221:\n    candidate = race.selectionList[contestPosition].selectionList[candidatePosition]';
+	$m.__track_lines__[222] = "sampleBallot.py, line 222:\n    print('\\t' + candidate.name)";
+	$m.__track_lines__[224] = 'sampleBallot.py, line 224:\n    def oncheckdone(e):';
+	$m.__track_lines__[225] = 'sampleBallot.py, line 225:\n    for i, contest in zip(range(len(race.selectionList)), race.selectionList):';
+	$m.__track_lines__[226] = 'sampleBallot.py, line 226:\n    if len(contest.userSelection) == 0:';
+	$m.__track_lines__[227] = 'sampleBallot.py, line 227:\n    fsm.nextContest()';
+	$m.__track_lines__[228] = 'sampleBallot.py, line 228:\n    return';
+	$m.__track_lines__[229] = 'sampleBallot.py, line 229:\n    fsm.reviewBallot()';
+	$m.__track_lines__[231] = 'sampleBallot.py, line 231:\n    def onreviewballot(e):';
+	$m.__track_lines__[232] = 'sampleBallot.py, line 232:\n    text = "Review your selections:"';
+	$m.__track_lines__[233] = "sampleBallot.py, line 233:\n    print('\\n'+text)";
+	$m.__track_lines__[234] = 'sampleBallot.py, line 234:\n    playAudio("/media/reviewBallot.wav")';
+	$m.__track_lines__[235] = 'sampleBallot.py, line 235:\n    paths = []';
+	$m.__track_lines__[236] = 'sampleBallot.py, line 236:\n    for contest in race.selectionList:';
+	$m.__track_lines__[237] = "sampleBallot.py, line 237:\n    print(contest.name + ':' + contest.userSelection[0].name)";
+	$m.__track_lines__[238] = 'sampleBallot.py, line 238:\n    paths.append(contest.audioPath)';
+	$m.__track_lines__[239] = 'sampleBallot.py, line 239:\n    paths.append(contest.userSelection[0].audioPath)';
+	$m.__track_lines__[241] = 'sampleBallot.py, line 241:\n    print paths';
+	$m.__track_lines__[244] = 'sampleBallot.py, line 244:\n    def ondoneballot(e):';
+	$m.__track_lines__[245] = "sampleBallot.py, line 245:\n    print('\\nVoting complete! Thanks for using this system!')";
+	$m.__track_lines__[246] = 'sampleBallot.py, line 246:\n    playAudio("/media/finish.wav")';
+	$m.__track_lines__[249] = "sampleBallot.py, line 249:\n    '''";
+	$m.__track_lines__[252] = 'sampleBallot.py, line 252:\n    fsm = Fysom({';
+	$m.__track_lines__[278] = "sampleBallot.py, line 278:\n    '''";
 
 
 	$pyjs.track.module='sampleBallot';
@@ -619,7 +619,7 @@ var snd1 = new Audio();
 	$m['makeSelection'].__args__ = [null,null];
 	$pyjs.track.lineno=123;
 	$m['onKeyPress'] = function(sender, keycode, modifiers) {
-		var $mod5,$mod4,$mod6,$mod3,candidateList,contestList,$sub8,$add7,$sub3,$sub2,$sub1,$sub7,$sub6,$sub5,$sub4,$add10,$add11,$add12,$add6,$add5,$add8,$add9;
+		var $mod5,$mod4,$mod6,$mod3,candidateList,contestList,$sub8,$sub3,$sub2,$sub1,$sub7,$sub6,$sub4,$or4,$or1,$or3,$or2,$add10,$add11,$add12,$sub5,$add6,$add7,$add5,$add8,$add9;
 		$pyjs.track={module:'sampleBallot',lineno:123};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
 		$pyjs.track.lineno=123;
@@ -630,241 +630,226 @@ var snd1 = new Audio();
 		candidateList = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList');
 		$pyjs.track.lineno=130;
 		if ((function(){try{try{$pyjs.in_try_except += 1;
-			return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'contests'));
+			return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_UP')));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_52_err){if (!$p['isinstance']($pyjs_dbg_52_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_52_err);}throw $pyjs_dbg_52_err;
 }})()) {
 			$pyjs.track.lineno=131;
-			if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_UP')));
+			$m['contestPosition'] = ($p['bool'](($p['cmp']($p['__op_add']($add5=$m['contestPosition'],$add6=1), (function(){try{try{$pyjs.in_try_except += 1;
+			return $p['len'](contestList);
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_53_err){if (!$p['isinstance']($pyjs_dbg_53_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_53_err);}throw $pyjs_dbg_53_err;
-}})()) {
-				$pyjs.track.lineno=132;
-				$m['contestPosition'] = ($p['bool'](($p['cmp']($p['__op_add']($add5=$m['contestPosition'],$add6=1), (function(){try{try{$pyjs.in_try_except += 1;
-				return $p['len'](contestList);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_54_err){if (!$p['isinstance']($pyjs_dbg_54_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_54_err);}throw $pyjs_dbg_54_err;
 }})()) == -1))? ($p['__op_add']($add7=$m['contestPosition'],$add8=1)) : (0));
-				$pyjs.track.lineno=133;
-				$m['currObj'] = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
-			}
-			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_DOWN')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_55_err){if (!$p['isinstance']($pyjs_dbg_55_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_55_err);}throw $pyjs_dbg_55_err;
-}})()) {
-				$pyjs.track.lineno=135;
-				$m['contestPosition'] = ($p['bool']($p['op_eq']($m['contestPosition'], 0))? ($p['__op_sub']($sub1=(function(){try{try{$pyjs.in_try_except += 1;
-				return $p['len'](contestList);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_56_err){if (!$p['isinstance']($pyjs_dbg_56_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_56_err);}throw $pyjs_dbg_56_err;
-}})(),$sub2=1)) : ($p['__op_sub']($sub3=$m['contestPosition'],$sub4=1)));
-				$pyjs.track.lineno=136;
-				$m['currObj'] = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
-			}
-			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_ENTER')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_57_err){if (!$p['isinstance']($pyjs_dbg_57_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_57_err);}throw $pyjs_dbg_57_err;
-}})()) {
-				$pyjs.track.lineno=138;
-				$m['currObj'] = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
-				$pyjs.track.lineno=139;
-				(function(){try{try{$pyjs.in_try_except += 1;
-				return $m['fsm']['selectCandidate']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_58_err){if (!$p['isinstance']($pyjs_dbg_58_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_58_err);}throw $pyjs_dbg_58_err;
-}})();
-				$pyjs.track.lineno=140;
-				(function(){try{try{$pyjs.in_try_except += 1;
-				return $m['setCandidate']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_59_err){if (!$p['isinstance']($pyjs_dbg_59_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_59_err);}throw $pyjs_dbg_59_err;
-}})();
-				$pyjs.track.lineno=141;
-				$pyjs.track.lineno=141;
-				var $pyjs__ret = null;
-				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
-				return $pyjs__ret;
-			}
-			else {
-				$pyjs.track.lineno=143;
-				$pyjs.track.lineno=143;
-				var $pyjs__ret = null;
-				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
-				return $pyjs__ret;
-			}
-			$pyjs.track.lineno=144;
+			$pyjs.track.lineno=132;
+			$m['currObj'] = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
+			$pyjs.track.lineno=133;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return $m['setContest']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_60_err){if (!$p['isinstance']($pyjs_dbg_60_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_60_err);}throw $pyjs_dbg_60_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_54_err){if (!$p['isinstance']($pyjs_dbg_54_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_54_err);}throw $pyjs_dbg_54_err;
+}})();
+			$pyjs.track.lineno=134;
+			(function(){try{try{$pyjs.in_try_except += 1;
+			return $m['candidate']['clear']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_55_err){if (!$p['isinstance']($pyjs_dbg_55_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_55_err);}throw $pyjs_dbg_55_err;
 }})();
 		}
 		else if ((function(){try{try{$pyjs.in_try_except += 1;
-			return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'candidates'));
+			return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_DOWN')));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_56_err){if (!$p['isinstance']($pyjs_dbg_56_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_56_err);}throw $pyjs_dbg_56_err;
+}})()) {
+			$pyjs.track.lineno=136;
+			$m['contestPosition'] = ($p['bool']($p['op_eq']($m['contestPosition'], 0))? ($p['__op_sub']($sub1=(function(){try{try{$pyjs.in_try_except += 1;
+			return $p['len'](contestList);
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_57_err){if (!$p['isinstance']($pyjs_dbg_57_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_57_err);}throw $pyjs_dbg_57_err;
+}})(),$sub2=1)) : ($p['__op_sub']($sub3=$m['contestPosition'],$sub4=1)));
+			$pyjs.track.lineno=137;
+			$m['currObj'] = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
+			$pyjs.track.lineno=138;
+			(function(){try{try{$pyjs.in_try_except += 1;
+			return $m['setContest']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_58_err){if (!$p['isinstance']($pyjs_dbg_58_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_58_err);}throw $pyjs_dbg_58_err;
+}})();
+			$pyjs.track.lineno=139;
+			(function(){try{try{$pyjs.in_try_except += 1;
+			return $m['candidate']['clear']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_59_err){if (!$p['isinstance']($pyjs_dbg_59_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_59_err);}throw $pyjs_dbg_59_err;
+}})();
+		}
+		else if ((function(){try{try{$pyjs.in_try_except += 1;
+			return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_ENTER')));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_60_err){if (!$p['isinstance']($pyjs_dbg_60_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_60_err);}throw $pyjs_dbg_60_err;
+}})()) {
+			$pyjs.track.lineno=141;
+			if ((function(){try{try{$pyjs.in_try_except += 1;
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'contests'));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_61_err){if (!$p['isinstance']($pyjs_dbg_61_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_61_err);}throw $pyjs_dbg_61_err;
 }})()) {
-			$pyjs.track.lineno=148;
-			if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_RIGHT')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_62_err){if (!$p['isinstance']($pyjs_dbg_62_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_62_err);}throw $pyjs_dbg_62_err;
-}})()) {
-				$pyjs.track.lineno=149;
-				$m['candidatePosition'] = ($p['bool'](($p['cmp']($p['__op_add']($add9=$m['candidatePosition'],$add10=1), (function(){try{try{$pyjs.in_try_except += 1;
-				return $p['len'](candidateList);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_63_err){if (!$p['isinstance']($pyjs_dbg_63_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_63_err);}throw $pyjs_dbg_63_err;
-}})()) == -1))? ($p['__op_add']($add11=$m['candidatePosition'],$add12=1)) : (0));
-				$pyjs.track.lineno=150;
+				$pyjs.track.lineno=142;
 				$m['currObj'] = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
+				$pyjs.track.lineno=143;
+				(function(){try{try{$pyjs.in_try_except += 1;
+				return $m['fsm']['selectCandidate']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_62_err){if (!$p['isinstance']($pyjs_dbg_62_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_62_err);}throw $pyjs_dbg_62_err;
+}})();
+				$pyjs.track.lineno=144;
+				(function(){try{try{$pyjs.in_try_except += 1;
+				return $m['setCandidate']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_63_err){if (!$p['isinstance']($pyjs_dbg_63_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_63_err);}throw $pyjs_dbg_63_err;
+}})();
+				$pyjs.track.lineno=145;
+				$pyjs.track.lineno=145;
+				var $pyjs__ret = null;
+				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
+				return $pyjs__ret;
 			}
 			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_LEFT')));
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'candidates'));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_64_err){if (!$p['isinstance']($pyjs_dbg_64_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_64_err);}throw $pyjs_dbg_64_err;
 }})()) {
-				$pyjs.track.lineno=152;
-				$m['candidatePosition'] = ($p['bool']($p['op_eq']($m['candidatePosition'], 0))? ($p['__op_sub']($sub5=(function(){try{try{$pyjs.in_try_except += 1;
-				return $p['len'](candidateList);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_65_err){if (!$p['isinstance']($pyjs_dbg_65_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_65_err);}throw $pyjs_dbg_65_err;
-}})(),$sub6=1)) : ($p['__op_sub']($sub7=$m['candidatePosition'],$sub8=1)));
-				$pyjs.track.lineno=153;
-				$m['currObj'] = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
-			}
-			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_ENTER')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_66_err){if (!$p['isinstance']($pyjs_dbg_66_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_66_err);}throw $pyjs_dbg_66_err;
-}})()) {
-				$pyjs.track.lineno=155;
+				$pyjs.track.lineno=147;
 				(function(){try{try{$pyjs.in_try_except += 1;
 				return $m['fsm']['reviewCandidates']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_67_err){if (!$p['isinstance']($pyjs_dbg_67_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_67_err);}throw $pyjs_dbg_67_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_65_err){if (!$p['isinstance']($pyjs_dbg_65_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_65_err);}throw $pyjs_dbg_65_err;
 }})();
-				$pyjs.track.lineno=156;
+				$pyjs.track.lineno=148;
 				(function(){try{try{$pyjs.in_try_except += 1;
 				return $m['setConfirm'](0);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_68_err){if (!$p['isinstance']($pyjs_dbg_68_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_68_err);}throw $pyjs_dbg_68_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_66_err){if (!$p['isinstance']($pyjs_dbg_66_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_66_err);}throw $pyjs_dbg_66_err;
 }})();
-				$pyjs.track.lineno=157;
-				$pyjs.track.lineno=157;
+				$pyjs.track.lineno=149;
+				$pyjs.track.lineno=149;
 				var $pyjs__ret = null;
 				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 				return $pyjs__ret;
 			}
-			else {
-				$pyjs.track.lineno=159;
-				$pyjs.track.lineno=159;
-				var $pyjs__ret = null;
-				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
-				return $pyjs__ret;
-			}
-			$pyjs.track.lineno=160;
-			(function(){try{try{$pyjs.in_try_except += 1;
-			return $m['setCandidate']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_69_err){if (!$p['isinstance']($pyjs_dbg_69_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_69_err);}throw $pyjs_dbg_69_err;
-}})();
-		}
-		else if ((function(){try{try{$pyjs.in_try_except += 1;
-			return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_candidates'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_70_err){if (!$p['isinstance']($pyjs_dbg_70_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_70_err);}throw $pyjs_dbg_70_err;
-}})()) {
-			$pyjs.track.lineno=164;
-			if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_RIGHT')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_71_err){if (!$p['isinstance']($pyjs_dbg_71_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_71_err);}throw $pyjs_dbg_71_err;
-}})()) {
-				$pyjs.track.lineno=165;
-				(function(){try{try{$pyjs.in_try_except += 1;
-				return $m['setConfirm'](1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_72_err){if (!$p['isinstance']($pyjs_dbg_72_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_72_err);}throw $pyjs_dbg_72_err;
-}})();
-			}
 			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_LEFT')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_73_err){if (!$p['isinstance']($pyjs_dbg_73_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_73_err);}throw $pyjs_dbg_73_err;
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_candidates'));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_67_err){if (!$p['isinstance']($pyjs_dbg_67_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_67_err);}throw $pyjs_dbg_67_err;
 }})()) {
-				$pyjs.track.lineno=167;
-				(function(){try{try{$pyjs.in_try_except += 1;
-				return $m['setConfirm']((typeof ($usub4=1)=='number'?
-					-$usub4:
-					$p['op_usub']($usub4)));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_74_err){if (!$p['isinstance']($pyjs_dbg_74_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_74_err);}throw $pyjs_dbg_74_err;
-}})();
-			}
-			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_ENTER')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_75_err){if (!$p['isinstance']($pyjs_dbg_75_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_75_err);}throw $pyjs_dbg_75_err;
-}})()) {
-				$pyjs.track.lineno=169;
+				$pyjs.track.lineno=151;
 				if ((function(){try{try{$pyjs.in_try_except += 1;
 					return $p['bool']($p['op_eq']((typeof ($mod3=$m['confirm'])==typeof ($mod4=2) && typeof $mod3=='number'?
 					(($mod3=$mod3%$mod4)<0&&$mod4>0?$mod3+$mod4:$mod3):
 					$p['op_mod']($mod3,$mod4)), 0));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_76_err){if (!$p['isinstance']($pyjs_dbg_76_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_76_err);}throw $pyjs_dbg_76_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_68_err){if (!$p['isinstance']($pyjs_dbg_68_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_68_err);}throw $pyjs_dbg_68_err;
 }})()) {
-					$pyjs.track.lineno=171;
+					$pyjs.track.lineno=153;
 					(function(){try{try{$pyjs.in_try_except += 1;
 					return $m['makeSelection']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_77_err){if (!$p['isinstance']($pyjs_dbg_77_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_77_err);}throw $pyjs_dbg_77_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_69_err){if (!$p['isinstance']($pyjs_dbg_69_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_69_err);}throw $pyjs_dbg_69_err;
 }})();
-					$pyjs.track.lineno=172;
+					$pyjs.track.lineno=154;
 					(function(){try{try{$pyjs.in_try_except += 1;
 					return $m['fsm']['doneReview']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_78_err){if (!$p['isinstance']($pyjs_dbg_78_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_78_err);}throw $pyjs_dbg_78_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_70_err){if (!$p['isinstance']($pyjs_dbg_70_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_70_err);}throw $pyjs_dbg_70_err;
 }})();
 				}
 				else {
-					$pyjs.track.lineno=174;
+					$pyjs.track.lineno=156;
 					(function(){try{try{$pyjs.in_try_except += 1;
 					return $m['fsm']['reselectCandidates']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_79_err){if (!$p['isinstance']($pyjs_dbg_79_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_79_err);}throw $pyjs_dbg_79_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_71_err){if (!$p['isinstance']($pyjs_dbg_71_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_71_err);}throw $pyjs_dbg_71_err;
+}})();
+				}
+			}
+			else if ((function(){try{try{$pyjs.in_try_except += 1;
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_ballot'));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_72_err){if (!$p['isinstance']($pyjs_dbg_72_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_72_err);}throw $pyjs_dbg_72_err;
+}})()) {
+				$pyjs.track.lineno=158;
+				if ((function(){try{try{$pyjs.in_try_except += 1;
+					return $p['bool']($p['op_eq']((typeof ($mod5=$m['confirm'])==typeof ($mod6=2) && typeof $mod5=='number'?
+					(($mod5=$mod5%$mod6)<0&&$mod6>0?$mod5+$mod6:$mod5):
+					$p['op_mod']($mod5,$mod6)), 0));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_73_err){if (!$p['isinstance']($pyjs_dbg_73_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_73_err);}throw $pyjs_dbg_73_err;
+}})()) {
+					$pyjs.track.lineno=159;
+					(function(){try{try{$pyjs.in_try_except += 1;
+					return $m['fsm']['doneBallot']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_74_err){if (!$p['isinstance']($pyjs_dbg_74_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_74_err);}throw $pyjs_dbg_74_err;
+}})();
+				}
+				else {
+					$pyjs.track.lineno=161;
+					(function(){try{try{$pyjs.in_try_except += 1;
+					return $m['fsm']['reselectContest']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_75_err){if (!$p['isinstance']($pyjs_dbg_75_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_75_err);}throw $pyjs_dbg_75_err;
 }})();
 				}
 			}
 		}
 		else if ((function(){try{try{$pyjs.in_try_except += 1;
-			return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_ballot'));
+			return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_RIGHT')));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_76_err){if (!$p['isinstance']($pyjs_dbg_76_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_76_err);}throw $pyjs_dbg_76_err;
+}})()) {
+			$pyjs.track.lineno=163;
+			if ((function(){try{try{$pyjs.in_try_except += 1;
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'candidates'));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_77_err){if (!$p['isinstance']($pyjs_dbg_77_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_77_err);}throw $pyjs_dbg_77_err;
+}})()) {
+				$pyjs.track.lineno=164;
+				$m['candidatePosition'] = ($p['bool'](($p['cmp']($p['__op_add']($add9=$m['candidatePosition'],$add10=1), (function(){try{try{$pyjs.in_try_except += 1;
+				return $p['len'](candidateList);
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_78_err){if (!$p['isinstance']($pyjs_dbg_78_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_78_err);}throw $pyjs_dbg_78_err;
+}})()) == -1))? ($p['__op_add']($add11=$m['candidatePosition'],$add12=1)) : (0));
+				$pyjs.track.lineno=165;
+				$m['currObj'] = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
+				$pyjs.track.lineno=166;
+				(function(){try{try{$pyjs.in_try_except += 1;
+				return $m['setCandidate']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_79_err){if (!$p['isinstance']($pyjs_dbg_79_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_79_err);}throw $pyjs_dbg_79_err;
+}})();
+			}
+			else if ((function(){try{try{$pyjs.in_try_except += 1;
+				return $p['bool'](($p['bool']($or1=$p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_candidates'))?$or1:$p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_ballot')));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_80_err){if (!$p['isinstance']($pyjs_dbg_80_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_80_err);}throw $pyjs_dbg_80_err;
 }})()) {
-			$pyjs.track.lineno=178;
-			if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_RIGHT')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_81_err){if (!$p['isinstance']($pyjs_dbg_81_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_81_err);}throw $pyjs_dbg_81_err;
-}})()) {
-				$pyjs.track.lineno=179;
+				$pyjs.track.lineno=168;
 				(function(){try{try{$pyjs.in_try_except += 1;
 				return $m['setConfirm'](1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_82_err){if (!$p['isinstance']($pyjs_dbg_82_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_82_err);}throw $pyjs_dbg_82_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_81_err){if (!$p['isinstance']($pyjs_dbg_81_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_81_err);}throw $pyjs_dbg_81_err;
 }})();
 			}
-			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_LEFT')));
+		}
+		else if ((function(){try{try{$pyjs.in_try_except += 1;
+			return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_LEFT')));
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_82_err){if (!$p['isinstance']($pyjs_dbg_82_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_82_err);}throw $pyjs_dbg_82_err;
+}})()) {
+			$pyjs.track.lineno=170;
+			if ((function(){try{try{$pyjs.in_try_except += 1;
+				return $p['bool']($p['op_eq']($p['getattr']($m['fsm'], 'current'), 'candidates'));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_83_err){if (!$p['isinstance']($pyjs_dbg_83_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_83_err);}throw $pyjs_dbg_83_err;
 }})()) {
-				$pyjs.track.lineno=181;
-				(function(){try{try{$pyjs.in_try_except += 1;
-				return $m['setConfirm']((typeof ($usub5=1)=='number'?
-					-$usub5:
-					$p['op_usub']($usub5)));
+				$pyjs.track.lineno=171;
+				$m['candidatePosition'] = ($p['bool']($p['op_eq']($m['candidatePosition'], 0))? ($p['__op_sub']($sub5=(function(){try{try{$pyjs.in_try_except += 1;
+				return $p['len'](candidateList);
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_84_err){if (!$p['isinstance']($pyjs_dbg_84_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_84_err);}throw $pyjs_dbg_84_err;
+}})(),$sub6=1)) : ($p['__op_sub']($sub7=$m['candidatePosition'],$sub8=1)));
+				$pyjs.track.lineno=172;
+				$m['currObj'] = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
+				$pyjs.track.lineno=173;
+				(function(){try{try{$pyjs.in_try_except += 1;
+				return $m['setCandidate']();
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_85_err){if (!$p['isinstance']($pyjs_dbg_85_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_85_err);}throw $pyjs_dbg_85_err;
 }})();
 			}
 			else if ((function(){try{try{$pyjs.in_try_except += 1;
-				return $p['bool']($p['op_eq'](keycode, $p['getattr']($m['KeyboardListener'], 'KEY_ENTER')));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_85_err){if (!$p['isinstance']($pyjs_dbg_85_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_85_err);}throw $pyjs_dbg_85_err;
-}})()) {
-				$pyjs.track.lineno=183;
-				if ((function(){try{try{$pyjs.in_try_except += 1;
-					return $p['bool']($p['op_eq']((typeof ($mod5=$m['confirm'])==typeof ($mod6=2) && typeof $mod5=='number'?
-					(($mod5=$mod5%$mod6)<0&&$mod6>0?$mod5+$mod6:$mod5):
-					$p['op_mod']($mod5,$mod6)), 0));
+				return $p['bool'](($p['bool']($or3=$p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_candidates'))?$or3:$p['op_eq']($p['getattr']($m['fsm'], 'current'), 'review_ballot')));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_86_err){if (!$p['isinstance']($pyjs_dbg_86_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_86_err);}throw $pyjs_dbg_86_err;
 }})()) {
-					$pyjs.track.lineno=184;
-					(function(){try{try{$pyjs.in_try_except += 1;
-					return $m['fsm']['doneBallot']();
+				$pyjs.track.lineno=175;
+				(function(){try{try{$pyjs.in_try_except += 1;
+				return $m['setConfirm']((typeof ($usub4=1)=='number'?
+					-$usub4:
+					$p['op_usub']($usub4)));
 }finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_87_err){if (!$p['isinstance']($pyjs_dbg_87_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_87_err);}throw $pyjs_dbg_87_err;
 }})();
-				}
-				else {
-					$pyjs.track.lineno=186;
-					(function(){try{try{$pyjs.in_try_except += 1;
-					return $m['fsm']['reselectContest']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_88_err){if (!$p['isinstance']($pyjs_dbg_88_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_88_err);}throw $pyjs_dbg_88_err;
-}})();
-				}
 			}
+		}
+		else {
+			$pyjs.track.lineno=177;
+			$pyjs.track.lineno=177;
+			var $pyjs__ret = null;
+			$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
+			return $pyjs__ret;
 		}
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -873,19 +858,19 @@ var snd1 = new Audio();
 
 	$m['onKeyPress'].__bind_type__ = 0;
 	$m['onKeyPress'].__args__ = [null,null,['sender'],['keycode'],['modifiers']];
-	$pyjs.track.lineno=188;
-	$pyjs.track.lineno=191;
+	$pyjs.track.lineno=180;
+	$pyjs.track.lineno=183;
 	$m['traverselist'] = function(obj) {
 		var alist,$add14,$add15,$add16,$add13;
-		$pyjs.track={module:'sampleBallot',lineno:191};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:183};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=191;
-		$pyjs.track.lineno=192;
+		$pyjs.track.lineno=183;
+		$pyjs.track.lineno=184;
 		alist = $p['getattr'](obj, 'selectionList');
-		$pyjs.track.lineno=193;
+		$pyjs.track.lineno=185;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add15=$p['__op_add']($add13='* ',$add14=$p['getattr'](alist.__getitem__($m['contestPosition']), '$$name')),$add16=' highlighted *')], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_89_err){if (!$p['isinstance']($pyjs_dbg_89_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_89_err);}throw $pyjs_dbg_89_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_88_err){if (!$p['isinstance']($pyjs_dbg_88_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_88_err);}throw $pyjs_dbg_88_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -894,23 +879,23 @@ var snd1 = new Audio();
 
 	$m['traverselist'].__bind_type__ = 0;
 	$m['traverselist'].__args__ = [null,null,['obj']];
-	$pyjs.track.lineno=195;
-	$pyjs.track.lineno=198;
+	$pyjs.track.lineno=187;
+	$pyjs.track.lineno=190;
 	$m['printstatechange'] = function(e) {
 
-		$pyjs.track={module:'sampleBallot',lineno:198};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:190};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=198;
-		$pyjs.track.lineno=199;
+		$pyjs.track.lineno=190;
+		$pyjs.track.lineno=191;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['sprintf']('event: %s, src: %s, dst: %s', (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['tuple']([$p['getattr'](e, 'event'), $p['getattr'](e, 'src'), $p['getattr'](e, 'dst')]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_90_err){if (!$p['isinstance']($pyjs_dbg_90_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_90_err);}throw $pyjs_dbg_90_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_89_err){if (!$p['isinstance']($pyjs_dbg_89_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_89_err);}throw $pyjs_dbg_89_err;
 }})());
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_91_err){if (!$p['isinstance']($pyjs_dbg_91_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_91_err);}throw $pyjs_dbg_91_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_90_err){if (!$p['isinstance']($pyjs_dbg_90_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_90_err);}throw $pyjs_dbg_90_err;
 }})()], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_92_err){if (!$p['isinstance']($pyjs_dbg_92_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_92_err);}throw $pyjs_dbg_92_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_91_err){if (!$p['isinstance']($pyjs_dbg_91_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_91_err);}throw $pyjs_dbg_91_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -919,16 +904,16 @@ var snd1 = new Audio();
 
 	$m['printstatechange'].__bind_type__ = 0;
 	$m['printstatechange'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=201;
+	$pyjs.track.lineno=193;
 	$m['onintro'] = function(e) {
 
-		$pyjs.track={module:'sampleBallot',lineno:201};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:193};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=201;
-		$pyjs.track.lineno=202;
+		$pyjs.track.lineno=193;
+		$pyjs.track.lineno=194;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc'](['hello!'], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_93_err){if (!$p['isinstance']($pyjs_dbg_93_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_93_err);}throw $pyjs_dbg_93_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_92_err){if (!$p['isinstance']($pyjs_dbg_92_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_92_err);}throw $pyjs_dbg_92_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -937,57 +922,57 @@ var snd1 = new Audio();
 
 	$m['onintro'].__bind_type__ = 0;
 	$m['onintro'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=204;
+	$pyjs.track.lineno=196;
 	$m['oncontests'] = function(e) {
 		var currObj,$iter1_nextval,$iter1_type,contest,i,$add20,$add23,$add22,$add24,$iter1_iter,$add21,$add17,$iter1_array,$pyjs__trackstack_size_1,$add18,$add19,$iter1_idx;
-		$pyjs.track={module:'sampleBallot',lineno:204};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:196};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=204;
-		$pyjs.track.lineno=205;
+		$pyjs.track.lineno=196;
+		$pyjs.track.lineno=197;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['candidate']['clear']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_94_err){if (!$p['isinstance']($pyjs_dbg_94_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_94_err);}throw $pyjs_dbg_94_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_93_err){if (!$p['isinstance']($pyjs_dbg_93_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_93_err);}throw $pyjs_dbg_93_err;
 }})();
-		$pyjs.track.lineno=206;
+		$pyjs.track.lineno=198;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['status']['clear']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_95_err){if (!$p['isinstance']($pyjs_dbg_95_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_95_err);}throw $pyjs_dbg_95_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_94_err){if (!$p['isinstance']($pyjs_dbg_94_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_94_err);}throw $pyjs_dbg_94_err;
 }})();
-		$pyjs.track.lineno=207;
+		$pyjs.track.lineno=199;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc'](['\nThe contests are:'], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_96_err){if (!$p['isinstance']($pyjs_dbg_96_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_96_err);}throw $pyjs_dbg_96_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_95_err){if (!$p['isinstance']($pyjs_dbg_95_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_95_err);}throw $pyjs_dbg_95_err;
 }})();
-		$pyjs.track.lineno=208;
+		$pyjs.track.lineno=200;
 		$pyjs__trackstack_size_1=$pyjs.trackstack.length;
 		$iter1_iter = (function(){try{try{$pyjs.in_try_except += 1;
 		return (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['zip']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['range']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['len']($p['getattr']($m['race'], 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_98_err){if (!$p['isinstance']($pyjs_dbg_98_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_98_err);}throw $pyjs_dbg_98_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_97_err){if (!$p['isinstance']($pyjs_dbg_97_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_97_err);}throw $pyjs_dbg_97_err;
 }})());
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_99_err){if (!$p['isinstance']($pyjs_dbg_99_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_99_err);}throw $pyjs_dbg_99_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_98_err){if (!$p['isinstance']($pyjs_dbg_98_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_98_err);}throw $pyjs_dbg_98_err;
 }})(), $p['getattr']($m['race'], 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_100_err){if (!$p['isinstance']($pyjs_dbg_100_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_100_err);}throw $pyjs_dbg_100_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_99_err){if (!$p['isinstance']($pyjs_dbg_99_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_99_err);}throw $pyjs_dbg_99_err;
 }})();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_101_err){if (!$p['isinstance']($pyjs_dbg_101_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_101_err);}throw $pyjs_dbg_101_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_100_err){if (!$p['isinstance']($pyjs_dbg_100_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_100_err);}throw $pyjs_dbg_100_err;
 }})();
 		$iter1_nextval=$p['__iter_prepare']($iter1_iter,false);
 		while (typeof($p['__wrapped_next']($iter1_nextval).$nextval) != 'undefined') {
 			var $tupleassign1 = (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['__ass_unpack']($iter1_nextval.$nextval, 2, null);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_97_err){if (!$p['isinstance']($pyjs_dbg_97_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_97_err);}throw $pyjs_dbg_97_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_96_err){if (!$p['isinstance']($pyjs_dbg_96_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_96_err);}throw $pyjs_dbg_96_err;
 }})();
 			i = $tupleassign1[0];
 			contest = $tupleassign1[1];
-			$pyjs.track.lineno=209;
+			$pyjs.track.lineno=201;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return $p['printFunc']([$p['__op_add']($add23=$p['__op_add']($add21=$p['__op_add']($add19='\t',$add20=(function(){try{try{$pyjs.in_try_except += 1;
 			return $p['str']($p['__op_add']($add17=i,$add18=1));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_102_err){if (!$p['isinstance']($pyjs_dbg_102_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_102_err);}throw $pyjs_dbg_102_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_101_err){if (!$p['isinstance']($pyjs_dbg_101_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_101_err);}throw $pyjs_dbg_101_err;
 }})()),$add22=') '),$add24=$p['getattr'](contest, '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_103_err){if (!$p['isinstance']($pyjs_dbg_103_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_103_err);}throw $pyjs_dbg_103_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_102_err){if (!$p['isinstance']($pyjs_dbg_102_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_102_err);}throw $pyjs_dbg_102_err;
 }})();
 		}
 		if ($pyjs.trackstack.length > $pyjs__trackstack_size_1) {
@@ -995,12 +980,12 @@ var snd1 = new Audio();
 			$pyjs.track = $pyjs.trackstack.slice(-1)[0];
 		}
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=210;
+		$pyjs.track.lineno=202;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['traverselist']($m['race']);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_104_err){if (!$p['isinstance']($pyjs_dbg_104_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_104_err);}throw $pyjs_dbg_104_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_103_err){if (!$p['isinstance']($pyjs_dbg_103_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_103_err);}throw $pyjs_dbg_103_err;
 }})();
-		$pyjs.track.lineno=212;
+		$pyjs.track.lineno=204;
 		currObj = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1009,54 +994,54 @@ var snd1 = new Audio();
 
 	$m['oncontests'].__bind_type__ = 0;
 	$m['oncontests'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=216;
+	$pyjs.track.lineno=208;
 	$m['oncandidates'] = function(e) {
 		var currContest,$add29,$add28,$iter2_iter,$add25,$add27,$add26,currObj,$iter2_type,$add32,$iter2_idx,$iter2_nextval,i,$add33,$add30,$add31,$add36,$add34,$add35,person,$pyjs__trackstack_size_1,$iter2_array;
-		$pyjs.track={module:'sampleBallot',lineno:216};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:208};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=216;
-		$pyjs.track.lineno=217;
+		$pyjs.track.lineno=208;
+		$pyjs.track.lineno=209;
 		currContest = $p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']);
-		$pyjs.track.lineno=218;
+		$pyjs.track.lineno=210;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add25='\nCurrent race is: ',$add26=$p['getattr'](currContest, '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_105_err){if (!$p['isinstance']($pyjs_dbg_105_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_105_err);}throw $pyjs_dbg_105_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_104_err){if (!$p['isinstance']($pyjs_dbg_104_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_104_err);}throw $pyjs_dbg_104_err;
 }})();
-		$pyjs.track.lineno=219;
+		$pyjs.track.lineno=211;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc'](['Candidates are:'], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_106_err){if (!$p['isinstance']($pyjs_dbg_106_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_106_err);}throw $pyjs_dbg_106_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_105_err){if (!$p['isinstance']($pyjs_dbg_105_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_105_err);}throw $pyjs_dbg_105_err;
 }})();
-		$pyjs.track.lineno=220;
+		$pyjs.track.lineno=212;
 		$pyjs__trackstack_size_1=$pyjs.trackstack.length;
 		$iter2_iter = (function(){try{try{$pyjs.in_try_except += 1;
 		return (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['zip']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['range']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['len']($p['getattr'](currContest, 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_108_err){if (!$p['isinstance']($pyjs_dbg_108_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_108_err);}throw $pyjs_dbg_108_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_107_err){if (!$p['isinstance']($pyjs_dbg_107_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_107_err);}throw $pyjs_dbg_107_err;
 }})());
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_109_err){if (!$p['isinstance']($pyjs_dbg_109_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_109_err);}throw $pyjs_dbg_109_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_108_err){if (!$p['isinstance']($pyjs_dbg_108_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_108_err);}throw $pyjs_dbg_108_err;
 }})(), $p['getattr'](currContest, 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_110_err){if (!$p['isinstance']($pyjs_dbg_110_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_110_err);}throw $pyjs_dbg_110_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_109_err){if (!$p['isinstance']($pyjs_dbg_109_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_109_err);}throw $pyjs_dbg_109_err;
 }})();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_111_err){if (!$p['isinstance']($pyjs_dbg_111_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_111_err);}throw $pyjs_dbg_111_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_110_err){if (!$p['isinstance']($pyjs_dbg_110_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_110_err);}throw $pyjs_dbg_110_err;
 }})();
 		$iter2_nextval=$p['__iter_prepare']($iter2_iter,false);
 		while (typeof($p['__wrapped_next']($iter2_nextval).$nextval) != 'undefined') {
 			var $tupleassign2 = (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['__ass_unpack']($iter2_nextval.$nextval, 2, null);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_107_err){if (!$p['isinstance']($pyjs_dbg_107_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_107_err);}throw $pyjs_dbg_107_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_106_err){if (!$p['isinstance']($pyjs_dbg_106_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_106_err);}throw $pyjs_dbg_106_err;
 }})();
 			i = $tupleassign2[0];
 			person = $tupleassign2[1];
-			$pyjs.track.lineno=221;
+			$pyjs.track.lineno=213;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return $p['printFunc']([$p['__op_add']($add33=$p['__op_add']($add31=$p['__op_add']($add29='\t',$add30=(function(){try{try{$pyjs.in_try_except += 1;
 			return $p['str']($p['__op_add']($add27=i,$add28=1));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_112_err){if (!$p['isinstance']($pyjs_dbg_112_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_112_err);}throw $pyjs_dbg_112_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_111_err){if (!$p['isinstance']($pyjs_dbg_111_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_111_err);}throw $pyjs_dbg_111_err;
 }})()),$add32=') '),$add34=$p['getattr'](person, '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_113_err){if (!$p['isinstance']($pyjs_dbg_113_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_113_err);}throw $pyjs_dbg_113_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_112_err){if (!$p['isinstance']($pyjs_dbg_112_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_112_err);}throw $pyjs_dbg_112_err;
 }})();
 		}
 		if ($pyjs.trackstack.length > $pyjs__trackstack_size_1) {
@@ -1064,17 +1049,17 @@ var snd1 = new Audio();
 			$pyjs.track = $pyjs.trackstack.slice(-1)[0];
 		}
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=222;
+		$pyjs.track.lineno=214;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['traverselist'](currContest);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_114_err){if (!$p['isinstance']($pyjs_dbg_114_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_114_err);}throw $pyjs_dbg_114_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_113_err){if (!$p['isinstance']($pyjs_dbg_113_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_113_err);}throw $pyjs_dbg_113_err;
 }})();
-		$pyjs.track.lineno=224;
+		$pyjs.track.lineno=216;
 		currObj = $p['getattr'](currContest, 'selectionList').__getitem__($m['contestPosition']);
-		$pyjs.track.lineno=225;
+		$pyjs.track.lineno=217;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add35='current candidate is ',$add36=$p['getattr'](currObj, '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_115_err){if (!$p['isinstance']($pyjs_dbg_115_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_115_err);}throw $pyjs_dbg_115_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_114_err){if (!$p['isinstance']($pyjs_dbg_114_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_114_err);}throw $pyjs_dbg_114_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1083,23 +1068,23 @@ var snd1 = new Audio();
 
 	$m['oncandidates'].__bind_type__ = 0;
 	$m['oncandidates'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=227;
+	$pyjs.track.lineno=219;
 	$m['onreviewcandidates'] = function(e) {
 		var $add38,$add39,candidate,$add37,$add41,$add40,$add42;
-		$pyjs.track={module:'sampleBallot',lineno:227};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:219};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=227;
-		$pyjs.track.lineno=228;
+		$pyjs.track.lineno=219;
+		$pyjs.track.lineno=220;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add39=$p['__op_add']($add37='\nReview Your Choice for ',$add38=$p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), '$$name')),$add40=':')], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_116_err){if (!$p['isinstance']($pyjs_dbg_116_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_116_err);}throw $pyjs_dbg_116_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_115_err){if (!$p['isinstance']($pyjs_dbg_115_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_115_err);}throw $pyjs_dbg_115_err;
 }})();
-		$pyjs.track.lineno=229;
+		$pyjs.track.lineno=221;
 		candidate = $p['getattr']($p['getattr']($m['race'], 'selectionList').__getitem__($m['contestPosition']), 'selectionList').__getitem__($m['candidatePosition']);
-		$pyjs.track.lineno=230;
+		$pyjs.track.lineno=222;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add41='\t',$add42=$p['getattr'](candidate, '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_117_err){if (!$p['isinstance']($pyjs_dbg_117_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_117_err);}throw $pyjs_dbg_117_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_116_err){if (!$p['isinstance']($pyjs_dbg_116_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_116_err);}throw $pyjs_dbg_116_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1108,50 +1093,50 @@ var snd1 = new Audio();
 
 	$m['onreviewcandidates'].__bind_type__ = 0;
 	$m['onreviewcandidates'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=232;
+	$pyjs.track.lineno=224;
 	$m['oncheckdone'] = function(e) {
 		var $iter3_idx,contest,i,$iter3_nextval,$iter3_type,$iter3_iter,$iter3_array,$pyjs__trackstack_size_1;
-		$pyjs.track={module:'sampleBallot',lineno:232};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:224};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=232;
-		$pyjs.track.lineno=233;
+		$pyjs.track.lineno=224;
+		$pyjs.track.lineno=225;
 		$pyjs__trackstack_size_1=$pyjs.trackstack.length;
 		$iter3_iter = (function(){try{try{$pyjs.in_try_except += 1;
 		return (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['zip']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['range']((function(){try{try{$pyjs.in_try_except += 1;
 		return $p['len']($p['getattr']($m['race'], 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_119_err){if (!$p['isinstance']($pyjs_dbg_119_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_119_err);}throw $pyjs_dbg_119_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_118_err){if (!$p['isinstance']($pyjs_dbg_118_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_118_err);}throw $pyjs_dbg_118_err;
 }})());
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_120_err){if (!$p['isinstance']($pyjs_dbg_120_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_120_err);}throw $pyjs_dbg_120_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_119_err){if (!$p['isinstance']($pyjs_dbg_119_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_119_err);}throw $pyjs_dbg_119_err;
 }})(), $p['getattr']($m['race'], 'selectionList'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_121_err){if (!$p['isinstance']($pyjs_dbg_121_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_121_err);}throw $pyjs_dbg_121_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_120_err){if (!$p['isinstance']($pyjs_dbg_120_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_120_err);}throw $pyjs_dbg_120_err;
 }})();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_122_err){if (!$p['isinstance']($pyjs_dbg_122_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_122_err);}throw $pyjs_dbg_122_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_121_err){if (!$p['isinstance']($pyjs_dbg_121_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_121_err);}throw $pyjs_dbg_121_err;
 }})();
 		$iter3_nextval=$p['__iter_prepare']($iter3_iter,false);
 		while (typeof($p['__wrapped_next']($iter3_nextval).$nextval) != 'undefined') {
 			var $tupleassign3 = (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['__ass_unpack']($iter3_nextval.$nextval, 2, null);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_118_err){if (!$p['isinstance']($pyjs_dbg_118_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_118_err);}throw $pyjs_dbg_118_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_117_err){if (!$p['isinstance']($pyjs_dbg_117_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_117_err);}throw $pyjs_dbg_117_err;
 }})();
 			i = $tupleassign3[0];
 			contest = $tupleassign3[1];
-			$pyjs.track.lineno=234;
+			$pyjs.track.lineno=226;
 			if ((function(){try{try{$pyjs.in_try_except += 1;
 				return $p['bool']($p['op_eq']((function(){try{try{$pyjs.in_try_except += 1;
 			return $p['len']($p['getattr'](contest, 'userSelection'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_123_err){if (!$p['isinstance']($pyjs_dbg_123_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_123_err);}throw $pyjs_dbg_123_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_122_err){if (!$p['isinstance']($pyjs_dbg_122_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_122_err);}throw $pyjs_dbg_122_err;
 }})(), 0));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_124_err){if (!$p['isinstance']($pyjs_dbg_124_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_124_err);}throw $pyjs_dbg_124_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_123_err){if (!$p['isinstance']($pyjs_dbg_123_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_123_err);}throw $pyjs_dbg_123_err;
 }})()) {
-				$pyjs.track.lineno=235;
+				$pyjs.track.lineno=227;
 				(function(){try{try{$pyjs.in_try_except += 1;
 				return $m.fsm['nextContest']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_125_err){if (!$p['isinstance']($pyjs_dbg_125_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_125_err);}throw $pyjs_dbg_125_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_124_err){if (!$p['isinstance']($pyjs_dbg_124_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_124_err);}throw $pyjs_dbg_124_err;
 }})();
-				$pyjs.track.lineno=236;
-				$pyjs.track.lineno=236;
+				$pyjs.track.lineno=228;
+				$pyjs.track.lineno=228;
 				var $pyjs__ret = null;
 				$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 				return $pyjs__ret;
@@ -1162,10 +1147,10 @@ var snd1 = new Audio();
 			$pyjs.track = $pyjs.trackstack.slice(-1)[0];
 		}
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=237;
+		$pyjs.track.lineno=229;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m.fsm['reviewBallot']();
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_126_err){if (!$p['isinstance']($pyjs_dbg_126_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_126_err);}throw $pyjs_dbg_126_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_125_err){if (!$p['isinstance']($pyjs_dbg_125_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_125_err);}throw $pyjs_dbg_125_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1174,52 +1159,52 @@ var snd1 = new Audio();
 
 	$m['oncheckdone'].__bind_type__ = 0;
 	$m['oncheckdone'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=239;
+	$pyjs.track.lineno=231;
 	$m['onreviewballot'] = function(e) {
 		var paths,contest,$add47,text,$add45,$add44,$add43,$iter4_idx,$pyjs__trackstack_size_1,$add48,$iter4_type,$iter4_nextval,$iter4_array,$iter4_iter,$add46;
-		$pyjs.track={module:'sampleBallot',lineno:239};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:231};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=239;
-		$pyjs.track.lineno=240;
+		$pyjs.track.lineno=231;
+		$pyjs.track.lineno=232;
 		text = 'Review your selections:';
-		$pyjs.track.lineno=241;
+		$pyjs.track.lineno=233;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([$p['__op_add']($add43='\n',$add44=text)], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_127_err){if (!$p['isinstance']($pyjs_dbg_127_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_127_err);}throw $pyjs_dbg_127_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_126_err){if (!$p['isinstance']($pyjs_dbg_126_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_126_err);}throw $pyjs_dbg_126_err;
 }})();
-		$pyjs.track.lineno=242;
+		$pyjs.track.lineno=234;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['playAudio']('/media/reviewBallot.wav');
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_128_err){if (!$p['isinstance']($pyjs_dbg_128_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_128_err);}throw $pyjs_dbg_128_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_127_err){if (!$p['isinstance']($pyjs_dbg_127_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_127_err);}throw $pyjs_dbg_127_err;
 }})();
-		$pyjs.track.lineno=243;
+		$pyjs.track.lineno=235;
 		paths = (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['list']([]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_129_err){if (!$p['isinstance']($pyjs_dbg_129_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_129_err);}throw $pyjs_dbg_129_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_128_err){if (!$p['isinstance']($pyjs_dbg_128_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_128_err);}throw $pyjs_dbg_128_err;
 }})();
-		$pyjs.track.lineno=244;
+		$pyjs.track.lineno=236;
 		$pyjs__trackstack_size_1=$pyjs.trackstack.length;
 		$iter4_iter = (function(){try{try{$pyjs.in_try_except += 1;
 		return $p['getattr']($m['race'], 'selectionList');
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_130_err){if (!$p['isinstance']($pyjs_dbg_130_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_130_err);}throw $pyjs_dbg_130_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_129_err){if (!$p['isinstance']($pyjs_dbg_129_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_129_err);}throw $pyjs_dbg_129_err;
 }})();
 		$iter4_nextval=$p['__iter_prepare']($iter4_iter,false);
 		while (typeof($p['__wrapped_next']($iter4_nextval).$nextval) != 'undefined') {
 			contest = $iter4_nextval.$nextval;
-			$pyjs.track.lineno=245;
+			$pyjs.track.lineno=237;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return $p['printFunc']([$p['__op_add']($add47=$p['__op_add']($add45=$p['getattr'](contest, '$$name'),$add46=':'),$add48=$p['getattr']($p['getattr'](contest, 'userSelection').__getitem__(0), '$$name'))], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_131_err){if (!$p['isinstance']($pyjs_dbg_131_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_131_err);}throw $pyjs_dbg_131_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_130_err){if (!$p['isinstance']($pyjs_dbg_130_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_130_err);}throw $pyjs_dbg_130_err;
 }})();
-			$pyjs.track.lineno=246;
+			$pyjs.track.lineno=238;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return paths['append']($p['getattr'](contest, 'audioPath'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_132_err){if (!$p['isinstance']($pyjs_dbg_132_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_132_err);}throw $pyjs_dbg_132_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_131_err){if (!$p['isinstance']($pyjs_dbg_131_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_131_err);}throw $pyjs_dbg_131_err;
 }})();
-			$pyjs.track.lineno=247;
+			$pyjs.track.lineno=239;
 			(function(){try{try{$pyjs.in_try_except += 1;
 			return paths['append']($p['getattr']($p['getattr'](contest, 'userSelection').__getitem__(0), 'audioPath'));
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_133_err){if (!$p['isinstance']($pyjs_dbg_133_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_133_err);}throw $pyjs_dbg_133_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_132_err){if (!$p['isinstance']($pyjs_dbg_132_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_132_err);}throw $pyjs_dbg_132_err;
 }})();
 		}
 		if ($pyjs.trackstack.length > $pyjs__trackstack_size_1) {
@@ -1227,10 +1212,10 @@ var snd1 = new Audio();
 			$pyjs.track = $pyjs.trackstack.slice(-1)[0];
 		}
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=249;
+		$pyjs.track.lineno=241;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc']([paths], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_134_err){if (!$p['isinstance']($pyjs_dbg_134_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_134_err);}throw $pyjs_dbg_134_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_133_err){if (!$p['isinstance']($pyjs_dbg_133_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_133_err);}throw $pyjs_dbg_133_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1239,21 +1224,21 @@ var snd1 = new Audio();
 
 	$m['onreviewballot'].__bind_type__ = 0;
 	$m['onreviewballot'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=252;
+	$pyjs.track.lineno=244;
 	$m['ondoneballot'] = function(e) {
 
-		$pyjs.track={module:'sampleBallot',lineno:252};$pyjs.trackstack.push($pyjs.track);
+		$pyjs.track={module:'sampleBallot',lineno:244};$pyjs.trackstack.push($pyjs.track);
 		$pyjs.track.module='sampleBallot';
-		$pyjs.track.lineno=252;
-		$pyjs.track.lineno=253;
+		$pyjs.track.lineno=244;
+		$pyjs.track.lineno=245;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $p['printFunc'](['\nVoting complete! Thanks for using this system!'], 1);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_135_err){if (!$p['isinstance']($pyjs_dbg_135_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_135_err);}throw $pyjs_dbg_135_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_134_err){if (!$p['isinstance']($pyjs_dbg_134_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_134_err);}throw $pyjs_dbg_134_err;
 }})();
-		$pyjs.track.lineno=254;
+		$pyjs.track.lineno=246;
 		(function(){try{try{$pyjs.in_try_except += 1;
 		return $m['playAudio']('/media/finish.wav');
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_136_err){if (!$p['isinstance']($pyjs_dbg_136_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_136_err);}throw $pyjs_dbg_136_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_135_err){if (!$p['isinstance']($pyjs_dbg_135_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_135_err);}throw $pyjs_dbg_135_err;
 }})();
 		$pyjs.trackstack.pop();$pyjs.track=$pyjs.trackstack.pop();$pyjs.trackstack.push($pyjs.track);
 		return null;
@@ -1262,52 +1247,52 @@ var snd1 = new Audio();
 
 	$m['ondoneballot'].__bind_type__ = 0;
 	$m['ondoneballot'].__args__ = [null,null,['e']];
-	$pyjs.track.lineno=257;
-	$pyjs.track.lineno=260;
+	$pyjs.track.lineno=249;
+	$pyjs.track.lineno=252;
 	$m['fsm'] = (function(){try{try{$pyjs.in_try_except += 1;
 	return $m['Fysom']((function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['initial', 'intro'], ['events', (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['list']([(function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'startVoting'], ['src', 'intro'], ['dst', 'contests']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_137_err){if (!$p['isinstance']($pyjs_dbg_137_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_137_err);}throw $pyjs_dbg_137_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_136_err){if (!$p['isinstance']($pyjs_dbg_136_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_136_err);}throw $pyjs_dbg_136_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'selectCandidate'], ['src', 'contests'], ['dst', 'candidates']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_138_err){if (!$p['isinstance']($pyjs_dbg_138_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_138_err);}throw $pyjs_dbg_138_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_137_err){if (!$p['isinstance']($pyjs_dbg_137_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_137_err);}throw $pyjs_dbg_137_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'reviewCandidates'], ['src', 'candidates'], ['dst', 'review_candidates']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_139_err){if (!$p['isinstance']($pyjs_dbg_139_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_139_err);}throw $pyjs_dbg_139_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_138_err){if (!$p['isinstance']($pyjs_dbg_138_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_138_err);}throw $pyjs_dbg_138_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'reselectCandidates'], ['src', 'review_candidates'], ['dst', 'candidates']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_140_err){if (!$p['isinstance']($pyjs_dbg_140_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_140_err);}throw $pyjs_dbg_140_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_139_err){if (!$p['isinstance']($pyjs_dbg_139_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_139_err);}throw $pyjs_dbg_139_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'doneReview'], ['src', 'review_candidates'], ['dst', 'check_done']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_141_err){if (!$p['isinstance']($pyjs_dbg_141_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_141_err);}throw $pyjs_dbg_141_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_140_err){if (!$p['isinstance']($pyjs_dbg_140_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_140_err);}throw $pyjs_dbg_140_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'nextContest'], ['src', 'check_done'], ['dst', 'contests']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_142_err){if (!$p['isinstance']($pyjs_dbg_142_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_142_err);}throw $pyjs_dbg_142_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_141_err){if (!$p['isinstance']($pyjs_dbg_141_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_141_err);}throw $pyjs_dbg_141_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'otherContest'], ['src', 'contests'], ['dst', 'contests']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_143_err){if (!$p['isinstance']($pyjs_dbg_143_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_143_err);}throw $pyjs_dbg_143_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_142_err){if (!$p['isinstance']($pyjs_dbg_142_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_142_err);}throw $pyjs_dbg_142_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'reviewBallot'], ['src', 'check_done'], ['dst', 'review_ballot']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_144_err){if (!$p['isinstance']($pyjs_dbg_144_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_144_err);}throw $pyjs_dbg_144_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_143_err){if (!$p['isinstance']($pyjs_dbg_143_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_143_err);}throw $pyjs_dbg_143_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'reselectContest'], ['src', 'review_ballot'], ['dst', 'contests']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_145_err){if (!$p['isinstance']($pyjs_dbg_145_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_145_err);}throw $pyjs_dbg_145_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_144_err){if (!$p['isinstance']($pyjs_dbg_144_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_144_err);}throw $pyjs_dbg_144_err;
 }})(), (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['name', 'doneBallot'], ['src', 'review_ballot'], ['dst', 'done_ballot']]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_146_err){if (!$p['isinstance']($pyjs_dbg_146_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_146_err);}throw $pyjs_dbg_146_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_145_err){if (!$p['isinstance']($pyjs_dbg_145_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_145_err);}throw $pyjs_dbg_145_err;
 }})()]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_147_err){if (!$p['isinstance']($pyjs_dbg_147_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_147_err);}throw $pyjs_dbg_147_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_146_err){if (!$p['isinstance']($pyjs_dbg_146_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_146_err);}throw $pyjs_dbg_146_err;
 }})()], ['callbacks', (function(){try{try{$pyjs.in_try_except += 1;
 	return $p['dict']([['onintro', $m['onintro']], ['oncontests', $m['oncontests']], ['oncandidates', $m['oncandidates']], ['onreview_candidates', $m['onreviewcandidates']], ['oncheck_done', $m['oncheckdone']], ['onreview_ballot', $m['onreviewballot']], ['ondone_ballot', $m['ondoneballot']]]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_148_err){if (!$p['isinstance']($pyjs_dbg_148_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_148_err);}throw $pyjs_dbg_148_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_147_err){if (!$p['isinstance']($pyjs_dbg_147_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_147_err);}throw $pyjs_dbg_147_err;
 }})()]]);
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_149_err){if (!$p['isinstance']($pyjs_dbg_149_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_149_err);}throw $pyjs_dbg_149_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_148_err){if (!$p['isinstance']($pyjs_dbg_148_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_148_err);}throw $pyjs_dbg_148_err;
 }})());
-}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_150_err){if (!$p['isinstance']($pyjs_dbg_150_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_150_err);}throw $pyjs_dbg_150_err;
+}finally{$pyjs.in_try_except-=1;}}catch($pyjs_dbg_149_err){if (!$p['isinstance']($pyjs_dbg_149_err, $p['StopIteration'])){$p['_handle_exception']($pyjs_dbg_149_err);}throw $pyjs_dbg_149_err;
 }})();
-	$pyjs.track.lineno=286;
+	$pyjs.track.lineno=278;
 	return this;
 }; /* end sampleBallot */
 
